@@ -1,0 +1,18 @@
+<div class="h-full w-full flex-col flex gap-12">
+  <span class="font-serif text-5xl font-medium">Products</span>
+  <div class="flex-row flex justify-center gap-5 font-roboto">
+    <span>All</span>
+    <span>Lamp</span>
+    <span>Chair</span>
+    <span>Table</span>
+    <span>Sofa</span>
+  </div>
+  <div class="grid grid-cols-3 grid-rows-2 gap-14">
+    <app-product-item [Price]="18" [ImgPath]="chair2"></app-product-item>
+    <app-product-item [Price]="18" [ImgPath]="chair1"></app-product-item>
+    <app-product-item [Price]="18" [ImgPath]="lamp"></app-product-item>
+    <app-product-item [Price]="18" [ImgPath]="chair3"></app-product-item>
+    <app-product-item [Price]="48" [ImgPath]="waredrobe"></app-product-item>
+    <app-product-item [Price]="78" [ImgPath]="couch"></app-product-item>
+  </div>
+</div>
