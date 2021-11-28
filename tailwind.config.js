@@ -8,12 +8,16 @@ module.exports = {
         roboto: ["Roboto"]
       },
       colors:{
-        accent:'#FAF4EF'
+        accent:'#FAF4EF',
+        inverse: '#4B4B4B'
       },
       spacing: {
         '72': '18rem',
         '84': '21rem',
         '96': '24rem',
+      },
+      borderRadius:{
+        '4x1': '5rem'
       }
     },
   },
